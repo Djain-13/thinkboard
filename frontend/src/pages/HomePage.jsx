@@ -4,7 +4,7 @@ import RateLimitedUI from "../components/RateLimitedUI";
 import { useEffect } from "react";
 import api from "../lib/axios";
 import toast from "react-hot-toast";
-import NoteCard from "../components/NoteCard";
+import NoteCard from "../components/Notecard.jsx";
 import NotesNotFound from "../components/NotesNotFound";
 
 const HomePage = () => {
